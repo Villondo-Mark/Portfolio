@@ -6,6 +6,7 @@ html {scroll-behavior: smooth}
 body {background-color: #EEEEEE; font-family: 'Nunito', sans-serif; font-size: 85%}
 
 .pageWidths {width: 97%}
+.introduction {width: 100%;}
 .introduction h1 {width: 80%; margin: auto; margin-right: 8%; color:#EEEEEE; background-color: black; box-sizing: border-box; padding: 2%}
 .introduction h1 div {font-size: 70%; text-align: center; margin-bottom: 5%}
 
