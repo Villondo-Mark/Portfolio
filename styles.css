@@ -22,14 +22,14 @@ nav h1{font-size: 150%}
 .title {background-color: rgb(0, 0, 0, 0.5); color: #EEEEEE; width: 100%; text-align: center; opacity: 0; transition: ease-in-out 100ms; font-size: 120%; box-sizing: border-box; padding: 1%}
 .cover:hover .title {opacity: 1}
 
-#second{background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+#second{background: url("ADHRedesignMockup2.png") center no-repeat; background-size: 100% auto}
 
-#third {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+#third {background: url("DHENGallerywebsitebannerBuddha-ver .png") center no-repeat; background-size: 100% auto}
 
-#fourth {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+#fourth {background: url("WatchProjectFinalDraft.png") center no-repeat; background-size: 100% auto}
 
-#fifth {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+#fifth {background: url("mockup1.png") center no-repeat; background-size: 100% auto}
 
 #sixth {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
 
-#first {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+#first {background-image: url("wonderboard_mockup2.png") center no-repeat; background-size: 100% auto}
