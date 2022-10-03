@@ -8,7 +8,7 @@ body {background-color: #f8f8ff; font-family: 'Nunito', sans-serif; font-size: 9
 .pageWidths {width: 100%; margin-left: -10px; margin-top: -10px}
 
 .content {height: auto; width: 68%; float: right; box-sizing: border-box; 
-    min-width: 400px; margin-right: 3%;}
+    min-width: 400px; margin-right: 3%; box-sizing: border-box;}
 
 .introduction {width: 85%; background-color: #0f0b0a; height: 490px; float: right; margin-right: -3%; font-size: smaller;}
 .introduction h1 {width: 70%; margin: auto; color:#f8f8ff; 
@@ -56,11 +56,24 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
       transform: translateX(-100%);
     }}
 
-.caseStudyTitle {text-align: center; background-color: red;}
+.caseStudyTitle {text-align: center; width: 100%; padding-top: 9%; margin-bottom: 25%;}
+.caseStudyTitle h1 {font-size: 260%;}
+.caseStudyTitle .subheader {font-size: 120%; margin-top: -30px;}
 
 .paragraphs {margin: 2% auto; margin-right: 0;width: 75%; text-align: justify}
 
 .list {width: 80%; margin: auto;}
+
+#introImgs {width: 100%; margin:auto; margin-top: 40px;}
+#introImgs img {display: inline; height: 185px; width: 23%;}
+.hr1 {width:40%}
+
+.caseStudyDetails {margin-top: 40px;}
+.caseStudyDetails .introDetails {font-size: 130%;}
+.caseStudyProblem, .caseStudySolution {width: 40%; text-align: justify; box-sizing: border-box;}
+.cst {text-align: center;}
+.caseStudyProblem {float: left;}
+.caseStudySolution {float: right;}
 
 .workSamples { margin: auto ;width: 100%; height:300px; display: grid; gap: 1% .5%; grid: 50% / auto auto auto;}
 
