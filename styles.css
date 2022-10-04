@@ -5,12 +5,17 @@ html {scroll-behavior: smooth}
 
 body {background-color: #f8f8ff; font-family: 'Nunito', sans-serif; font-size: 90%; overflow-x: hidden;}
 
-.pageWidths {width: 100%; margin-left: -10px; margin-top: -10px}
+.pageWidths {width: 101%; margin-left: -10px; margin-top: -10px}
 
 .content {height: auto; width: 68%; float: right; box-sizing: border-box; 
     min-width: 400px; margin-right: 3%; box-sizing: border-box;}
 
-.introduction {width: 85%; background-color: #0f0b0a; height: 490px; float: right; margin-right: -3%; font-size: smaller;}
+.introduction {width: 80.6%; ; height: 490px; float: right; font-size: smaller; margin-bottom: 50px; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("https://images.unsplash.com/photo-1535222830855-fd60aca7e065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); 
+    background-size: 100% 100%;}
+
+/* https://unsplash.com/photos/5US9_Gep0qY homepage background by Bonnie Kittle*/
+
 .introduction h1 {width: 70%; margin: auto; color:#f8f8ff; 
     box-sizing: border-box; padding-top: 9%; text-align: center;}
 .introduction h1 div {font-size: 70%; margin-top: 4%;}
@@ -18,14 +23,19 @@ body {background-color: #f8f8ff; font-family: 'Nunito', sans-serif; font-size: 9
 .buttonSection {margin: auto; width: 70%; padding: 0% 1%; margin-top: 3%; font-size: medium;}
 .buttonSection  > div {color:#f8f8ff; border: #f8f8ff 2px solid; box-sizing: border-box; padding: 2% 5%; 
 border-radius: 40px;}
-.buttonSection  > div:hover {background-color:#f8f8ff; color: #0f0b0a; border: #f8f8ff 2px solid;
-    transition: 100ms ease-in-out; font-size: 105%; padding: 2.1% 5.01%;}
+.buttonSection  > div:hover {background-color:#f8f8ff; color: #0f0b0a; border: #f8f8ff 2px solid}
     #b1{float: left;}
     #b2 {float: right}
 
     #b1, #b2 {margin-top: 3%;}
 
     .buttonSection p {color: #f8f8ff; text-align: center;}
+
+
+    .blackLink {text-decoration: none; color:#f8f8ff; border: #0f0b0a 2px solid; padding: 2% 5%; 
+        border-radius: 40px; background-color: #0f0b0a; width: auto; display: block; text-align: center;}
+    .blackLink:hover {background-color:#f8f8ff; color: #0f0b0a; border: #0f0b0a 2px solid;
+            transition: 100ms ease-in-out; font-size: 105%; padding: 2.1% 5.01%;}
 
 nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; min-width: 250px; 
     background-color: #ffdc09}
@@ -34,16 +44,15 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 .myInfo h1 {font-size: 250%; margin-bottom: 6%; line-height: 100%;}
 .myInfo img {width: 90%; min-width: 150px; margin-top: 3%;}
 .myInfo a {text-decoration: none; color:  #0f0b0a; border-radius: 60px}
-.myInfo a:hover {color: #f8f8ff; background-color: #0f0b0a; transition: 100ms ease-in-out; 
-    font-size: 102%; padding: 1% 3%;}
+.myInfo a:hover {color: #f8f8ff; background-color: #0f0b0a; font-size: 102%; padding: 1% 3%;}
 
 .myInfo .divider {border-top: #262726 solid 1px; width: 40%; float: right}
 #extLinks {margin-top: 15%}
 #contact {font-size: smaller;}
 
-    .header {text-align: left; font-size: 170%; width: 100%; background-color: #C0C0C0; 
+    .header {text-align: left; font-size: 170%; width: 107%; background-color: #C0C0C0; 
         border-left: 15px #545554 solid; padding: 1% 0%; overflow: hidden; 
-        box-sizing: border-box; color: #0f0b0a}
+        box-sizing: border-box; color: #0f0b0a;margin-left: -7%;}
 
         .introduction .divider {border-top: #f8f8ff solid 1px; width: 30%; margin: auto; margin-bottom: 2%;}
 
@@ -56,24 +65,27 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
       transform: translateX(-100%);
     }}
 
-.caseStudyTitle {text-align: center; width: 100%; padding-top: 9%; margin-bottom: 25%;}
+.caseStudyTitle {text-align: center; width: 100%; padding-top: 9%;}
 .caseStudyTitle h1 {font-size: 260%;}
 .caseStudyTitle .subheader {font-size: 120%; margin-top: -30px;}
 
-.paragraphs {margin: 2% auto; margin-right: 0;width: 75%; text-align: justify}
+.paragraphs {margin: 2% auto; margin-right: 0; width: 75%; text-align: justify;}
+
 
 .list {width: 80%; margin: auto;}
 
 #introImgs {width: 100%; margin:auto; margin-top: 40px;}
 #introImgs img {display: inline; height: 185px; width: 23%;}
-.hr1 {width:40%}
+.hr1 {width:40%; margin-top: 20px;}
 
-.caseStudyDetails {margin-top: 40px;}
+.caseStudyDetails {margin-top: 40px; margin-bottom: 30%;}
 .caseStudyDetails .introDetails {font-size: 130%;}
 .caseStudyProblem, .caseStudySolution {width: 40%; text-align: justify; box-sizing: border-box;}
 .cst {text-align: center;}
 .caseStudyProblem {float: left;}
 .caseStudySolution {float: right;}
+#wbhr {width: 40%;}
+
 
 .workSamples { margin: auto ;width: 100%; height:300px; display: grid; gap: 1% .5%; grid: 50% / auto auto auto;}
 
@@ -82,18 +94,34 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 .cover {text-decoration:  none}
     .cover:hover .title {opacity: 1}
 
-#first {background: url("wonderboard_mockup2.png") center no-repeat; background-size: 100% auto}
+    .workSamples #first {background: url("wonderboard_mockup2.png") center no-repeat; background-size: 100% auto}
 
-#second{background: url("ADHRedesignMockup2.png") center no-repeat; background-size: 100% auto}
+    .workSamples #second{background: url("ADHRedesignMockup2.png") center no-repeat; background-size: 100% auto}
 
-#third {background: url("DHENGallerywebsitebannerBuddha-ver .png") right no-repeat; background-size: auto 100%}
+    .workSamples #third {background: url("DHENGallerywebsitebannerBuddha-ver .png") right no-repeat; background-size: auto 100%}
 
-#fourth {background: url("WatchProjectFinalDraft.png") center no-repeat; background-size: 100% auto}
+    .workSamples #fourth {background: url("WatchProjectFinalDraft.png") center no-repeat; background-size: 100% auto}
 
-#fifth {background: url("mockup1.png") center no-repeat; background-size: 100% auto}
+    .workSamples #fifth {background: url("mockup1.png") center no-repeat; background-size: 100% auto}
 
-#sixth {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+    .workSamples #sixth {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
+
+
+    .workGalleryWB { margin: auto ;width: 100%; height:300px; display: grid; gap: 1% .5%; grid: 50% / auto auto auto;}
+
+.workGalleryWB #first {background: url("welcome.png") center no-repeat; background-size: cover}
+
+.workGalleryWB #second{background: url("myClasses.png") center no-repeat; background-size: cover}
+
+.workGalleryWB #third {background: url("dashboard.png") right no-repeat; background-size: cover}
+
+.workGalleryWB #fourth {background: url("assignments.png") center no-repeat; background-size: cover}
+
+.workGalleryWB #fifth {background: url("calendar.png") center no-repeat; background-size: cover}
+
+.workGalleryWB #sixth {background: url("documents.png") center no-repeat; background-size: cover}
 
 footer {width: 100%; padding: 1%; height: auto; box-sizing: border-box; margin-top: 20%; text-align: center; color: #0f0b0a;}
 footer a {text-decoration: none; display: inline-block; color: #0f0b0a} 
 footer p {display: inline-block}
+
