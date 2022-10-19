@@ -87,22 +87,22 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 #wbhr {width: 40%;}
 
 
-.workSamples { margin: auto ;width: 100%; height:300px; display: grid; gap: 1% .5%; grid: 50% / auto auto auto;}
+.workSamples { margin: auto ;width: 100%; height: 320px; display: grid; gap: 1% .5%; grid: 50% / auto auto auto;}
 
 .title {background-color: rgb(0, 0, 0, 0.5); color: #f8f8ff; width: 100%; height: 100%; text-align: center; opacity: 0; 
     transition: ease-in-out 100ms; font-size: 120%; box-sizing: border-box; padding: 1%}
 .cover {text-decoration:  none}
     .cover:hover .title {opacity: 1}
 
-    .workSamples #first {background: url("wonderboard_mockup2.png") center no-repeat; background-size: 100% auto}
+    .workSamples #first {background: url("wonderboard_mockup1_3_45.png") center no-repeat; background-size: 100% auto}
 
-    .workSamples #second{background: url("ADHRedesignMockup2.png") center no-repeat; background-size: 100% auto}
+    .workSamples #second{background: url("ADHRedesignMockup2_1_58.png") center no-repeat; background-size: 100% auto}
 
     .workSamples #third {background: url("DHENGallerywebsitebannerBuddha-ver .png") right no-repeat; background-size: auto 100%}
 
-    .workSamples #fourth {background: url("WatchProjectFinalDraft.png") center no-repeat; background-size: 100% auto}
+    .workSamples #fourth {background: url("nautica_watch_thumbnail_5_30.png") center no-repeat; background-size: 100% auto}
 
-    .workSamples #fifth {background: url("mockup1.png") center no-repeat; background-size: 100% auto}
+    .workSamples #fifth {background: url("mockup1_5_5.png") center no-repeat; background-size: 100% auto}
 
     .workSamples #sixth {background: url("https://nitter.net/pic/media%2FFOiIETLVUAAt-jE.jpg") center no-repeat; background-size: 100% auto}
 
