@@ -71,6 +71,7 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 .caseStudyTitle h1 {font-size: 260%;}
 .caseStudyTitle .subheader {font-size: 120%; margin-top: -30px;}
 
+.frontparagraphs {width: 90%; margin: auto;}
 .paragraphs {margin: 2% auto; margin-right: 0; width: 75%; text-align: justify;}
 
 
@@ -87,7 +88,6 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 .caseStudyProblem {float: left;}
 .caseStudySolution {float: right;}
 #wbhr {width: 40%;}
-
 
 .workSamples { margin: auto ;width: 100%; height: 330px; display: grid; gap: 1% .5%; grid: 50% / auto auto auto;}
 
