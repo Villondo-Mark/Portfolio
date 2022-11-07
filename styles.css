@@ -83,6 +83,16 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 
 .dhenimg2 {height: auto; width: 90%; display: block; margin: auto; margin-top: 40px;}
 
+.adhIntroImgs {height: auto; width: 100%; margin: auto; margin-top: 40px;}
+.adhIntroImgs  img {display: inline; height: 300px; width: auto;}
+.adhimggallery img {width: 32%; height: auto;}
+.adhimggallery {margin: auto; width: 80%;}
+.adhimggallery #wBackground {background: #0f0b0a;}
+#mishalfacecontainer {width: 80%; margin: auto;}
+#mishalface {width: 100%;}
+.projectsGallery {display: inline; width: 100%; box-sizing: border-box; height: auto;}
+.projectsGallery img {width: auto; height: 400px;}
+
 .caseStudyDetails {margin-top: 40px}
 .caseStudyDetails .introDetails {font-size: 130%;}
 .caseStudyProblem, .caseStudySolution {width: 40%; text-align: justify; box-sizing: border-box;}
