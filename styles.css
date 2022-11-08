@@ -90,8 +90,8 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 .adhimggallery #wBackground {background: #0f0b0a;}
 #mishalfacecontainer {width: 80%; margin: auto;}
 #mishalface {width: 100%;}
-.projectsGallery {display: inline; width: 100%; box-sizing: border-box; height: auto;}
-.projectsGallery img {width: auto; height: 400px;}
+.projectsGallery {display: inline; width: 100%; height: auto;}
+.projectsGallery img {width: auto; height: 240px;}
 
 .caseStudyDetails {margin-top: 40px}
 .caseStudyDetails .introDetails {font-size: 130%;}
@@ -134,6 +134,10 @@ nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; 
 .dhenimggallery img {width: 100%;}
 .dhenlogo {margin: auto; width: 80%;}
 .dhenlogo img {height: auto; width: 30%;  display: inline;}
+
+#sticker {margin: auto; width: 75%; height: auto;}
+#stickervid { width: 546.875px; height: 350px}
+
 
 footer {width: 100%; padding: 1%; height: auto; box-sizing: border-box; margin-top: 20%; text-align: center; color: #0f0b0a;}
 footer a {text-decoration: none; display: inline-block; color: #0f0b0a} 
