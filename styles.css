@@ -17,8 +17,6 @@ body {background-color: #f8f8ff; font-family: 'Nunito', sans-serif; font-size: 9
 
 text-shadow: #0f0b0a 0px 0px 20px}
 
-/* https://unsplash.com/photos/5US9_Gep0qY homepage background by Bonnie Kittle*/
-
 .introduction h1 {width: 70%; margin: auto; color:#f8f8ff; 
     box-sizing: border-box; padding-top: 9%; text-align: center; }
 .introduction h1 div {font-size: 70%; margin-top: 4%; text-shadow: #0f0b0a 0px 0px 10px}
@@ -39,8 +37,17 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
         border-radius: 40px; background-color: #0f0b0a; width: auto; display: block; text-align: center; width: 200px; margin: auto;}
     .blackLink:hover {background-color:#f8f8ff; color: #0f0b0a; border: #0f0b0a 2px solid;}
 
-nav {height: 101%; width: 19%; float: left; position: fixed; text-align: right; min-width: 250px; 
-    background-color: #ffdc09}
+    nav {background: linear-gradient(to right, #ff7518 0%, #FEDD09); width: 19%; float: left; position: fixed; font-size: 100%; text-align: right; height: 100%}
+
+    nav > a { display: block; margin: 4% 6% 0% 0%}
+    
+    nav a {text-decoration: none; color: black}
+    
+    nav a:hover {font-size: 110%; transition: ease-in-out}
+    
+    nav :nth-child(1) {margin-top: 165px}
+    nav :nth-child(4) {margin-top: 60px}
+    nav :nth-child(10) {margin-top: 60px}
 
 .myInfo {height: auto; width: 100%; float: left; box-sizing: border-box; line-height: 80%; padding: 6%;}
 .myInfo h1 {font-size: 250%; margin-bottom: 6%; line-height: 100%; font-family: 'Cutive Mono', monospace;}
