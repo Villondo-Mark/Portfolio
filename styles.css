@@ -142,7 +142,7 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
 .dhenimggallery {width: 100%; box-sizing: border-box;}
 .dhenimggallery img {width: 100%;}
 .dhenlogo {margin: auto; width: 80%;}
-.dhenlogo img {height: auto; width: 30%;  display: inline;}
+.dhenlogo img {height: auto;  display: inline;}
 
 #sticker {margin: auto; width: 50%; height: auto;}
 #stickervid { width: 50%; height: 350px}
