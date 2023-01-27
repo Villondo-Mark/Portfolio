@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
-@media only screen and (max-width:599px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
+@media only screen and (max-width:899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
 body {background: linear-gradient(to right, #ff7518, 15%, #FEDD09); overflow-x: hidden; font-family: nunito; color: #010203; padding: 3%; width: 90%; margin: auto;}
 
@@ -58,7 +58,7 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
 
 
 
-  @media only screen and  (min-width: 600px) {
+  @media only screen and  (min-width: 900px) {
 
 nav {width: 23%; float: left; position: fixed; margin: 150px 0% 0% 2%; font-size: 90%; text-align: right}
 
