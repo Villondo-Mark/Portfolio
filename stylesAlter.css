@@ -1,17 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
-body {background: linear-gradient(to right, #ff7518, 15%, #FEDD09); overflow-x: hidden; font-family: nunito; color: #010203}
+@media only screen and (max-width:599px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
-nav {width: 15%; float: left; position: fixed; margin: 150px 0% 0% 2%; font-size: 90%; text-align: right}
+body {background: linear-gradient(to right, #ff7518, 15%, #FEDD09); overflow-x: hidden; font-family: nunito; color: #010203; padding: 3%; width: 90%; margin: auto;}
 
-nav > a { display: block; margin: 5% 0%}
+.introSection::before, .introSection::after { content:' \A'; display: block; white-space: pre;}
 
-nav a {text-decoration: none; color: black;}
+.bigSection { display: block; width: 100%;}
+.bigSection p {text-align: justify;}
+.content {width: 100%;}
+.content h2 {text-align: center;}
+
+.aboutMe {width: 100%; height: auto; clear: both; margin-bottom: 50px; position: relative}
+.aboutMe h1 {text-align: center; font-size:  120%;}
+.aboutMe ul {list-style: none; display: block}
+.aboutMe ul li {color: white; border-radius: 50px; padding: 7px 4px; text-align: center; margin-bottom: 7px}
+
+.funkyButtons { width: 100%; display: block; text-align: center}
+.myButtons:hover {font-size: 120%}
+
+.interactables img {width: 70%; margin-left: auto; margin-right: auto; display: block;}
+
+.myButtons {color: white; border-radius: 50px; padding: 9px 6px; text-align: center; margin-bottom: 7px; background-color: #010203; font-size: 110%; text-decoration: none;}
+
+.homeButton {color: white; background-color: #010203; border-radius: 50px; padding: 3px; text-decoration: none; font-size: 120%; display: block; text-align: center; width: 50%; margin: auto;}
+
+.content h1 {text-align: center;}
+
+.aboutMe ul:nth-child(2) >li {background: rgb(254, 9, 72, .8)}
+.aboutMe ul:nth-child(3) >li {background: rgb(6, 81, 178, .8)}
+.aboutMe ul:nth-child(4) >li {background: rgb(9, 116, 254, .8)}
+
+footer {width: 100%; padding: 5% 0%; height: 60px; box-sizing: border-box; text-align: center; display: inline-block;}
+footer a {text-decoration: none; color: #0f0b0a} 
+
+.introSection {width: 100%; text-align: center;}
+
+.introSection .bigText {display: inline; font-size: 150%;}
+
+.introSection div:nth-child(7) {margin-top: -25px; display: block; white-space: nowrap;
+  overflow: hidden; font-size: 300%;}
+
+  nav {width: 100%; display: block; text-align: center;}
+
+nav > a { display: block; background-color: #010203; width: 50%; margin: 2% auto; padding: 3px;border-radius: 15px; color: white; text-decoration: none}
 
 nav a:hover {font-size: 110%; transition: ease-in-out}
 
-nav :nth-child(4) {margin-top: 60px}
-nav :nth-child(10) {margin-top: 60px}
+.funkyButtons p {text-align: center;}
+
+.divider {width: 100%; color: #010203; margin: auto; border-top: #010203 1px solid;}
+
+.introSection div:nth-child(2) {color:#0651b2}
+.introSection div:nth-child(3) {color:#0974fe}
+.introSection div:nth-child(4) {color:#a34cb3}
+.introSection div:nth-child(1) {color:#fe0948;}
+
+
+
+  @media only screen and  (min-width: 600px) {
+
+nav {width: 23%; float: left; position: fixed; margin: 150px 0% 0% 2%; font-size: 90%; text-align: right}
+
+nav > a { display: block; margin: 5% 0%; text-decoration: none; color: #010203; padding: none; border-radius: none; background: none;}
+
+nav a:hover {font-size: 110%; transition: ease-in-out}
 
 .bigSection {width: 75%; ; height: auto; position: absolute; right: 0; margin: 100px 0px 30px 0px}
 
@@ -41,11 +94,11 @@ nav :nth-child(10) {margin-top: 60px}
 
 .introSection div:nth-child(8) { animation: introAnimate 1.7s forwards; animation-delay: 6.2s; margin-top: -25px; display: block; float: right }
 
-.introSection div:nth-child(1) {color:#fe0948; animation: introAnimate 1s forwards; animation-delay:1.5s}
+.introSection div:nth-child(1) {animation: introAnimate 1s forwards; animation-delay:1.5s}
 
-.introSection div:nth-child(2) {color:#0651b2; animation: introAnimate 1s forwards; animation-delay:2s}
-.introSection div:nth-child(3) {color:#0974fe; animation: introAnimate 1s forwards; animation-delay:2.5s}
-.introSection div:nth-child(4) {color:#a34cb3; animation: introAnimate 1s forwards; animation-delay:3s}
+.introSection div:nth-child(2) {animation: introAnimate 1s forwards; animation-delay:2s}
+.introSection div:nth-child(3) {animation: introAnimate 1s forwards; animation-delay:2.5s}
+.introSection div:nth-child(4) {animation: introAnimate 1s forwards; animation-delay:3s}
 
 .content, nav, .aboutMe, footer {animation: introAnimate 2s forwards; animation-delay: 7.2s; opacity: 0}
 
@@ -59,13 +112,16 @@ nav :nth-child(10) {margin-top: 60px}
 .content { width: 70%; float: right; margin-right: 10%; }
 .content > div {margin: 3% 0%}
 .interactables {height: 200px; width: 30%; display:inline-block; margin: 0% 10% 0 0; position: relative}
-.interactables img {width: 100%; top: 0; position: absolute;}
-.img {width: 100%; height: 70%; background-color:red}
+.interactables img {width: 100%; position: relative; top: 35px;}
+.img {width: 100%; height: 70%}
 .summary {width: 50%; text-align: justify; display: inline-block; line-height: 1.4}
-.buttonContain {text-align: center}
-.homeButton {color: white; background-color: black; border-radius: 50px; padding: 3px; text-decoration: none; font-size: 120%; position: absolute}
+.buttonContain {text-align: center; }
+.homeButton {color: white; background-color: #010203; border-radius: 50px; padding: 3px; text-decoration: none; font-size: 120%; position: absolute; margin: auto; width: auto;}
 .homeButton:hover {font-size: 130%}
+.content div {margin-bottom: 30px;}
+.content > div::after {content:""}
 
 footer {width: 100%; padding: 5% 0%; height: 60px; box-sizing: border-box; text-align: center; position: absolute; bottom: 0}
 footer a {text-decoration: none; display: inline-block; color: #0f0b0a} 
 footer p {display: inline-block}
+  }

@@ -2,9 +2,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
+@media only screen and (max-width:599px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
+
+body {background: linear-gradient(to right, #ff7518, 15%, #FEDD09); overflow-x: hidden; font-family: nunito; color: #010203; padding: 3%; width: 90%; margin: auto;}
+
 html {scroll-behavior: smooth}
 
-body {background-color: #f8f8ff; font-family: 'Nunito', sans-serif; font-size: 90%; overflow-x: hidden;}
+nav {width: 100%; display: block; text-align: center;}
+
+nav > a { display: block; background-color: #010203; width: 50%; margin: 2% auto; padding: 3px;border-radius: 15px; color: white; text-decoration: none}
+
+nav a:hover {font-size: 110%; transition: ease-in-out}
+
+.caseStudyTitle {text-align: center; width: 100%; padding-top: 9%;}
+.caseStudyTitle h1 {font-size: 260%;}
+.caseStudyTitle .subheader {font-size: 120%; margin-top: -30px;}
+.caseStudyProblem p, .caseStudySolution p {text-align: justify;}
+
+.content {height: auto; width: 100%;  text-align: justify;display: block;box-sizing: border-box; 
+    min-width: 400px; margin-right: 3%; box-sizing: border-box; margin: auto;}
+
+    .pageWidths {width: 100%; margin: auto;}
+
+    #introImgs {width: 100%; margin:auto; margin-top: 40px;}
+#introImgs img {display: block; width: 80%; margin: auto;}
+
+.header {text-align: center; font-size: 170%; width: 100%; background-color: #C0C0C0; 
+    border-left: 15px #545554 solid; padding: 1% 0%; overflow: hidden; 
+    box-sizing: border-box; color: #0f0b0a;}
+
+    .caseStudyDetails::after {content: "\A";}
+
+    .list {width: 80%; margin: auto;}
+
+    .blackLink {text-decoration: none; color:#f8f8ff; border: #0f0b0a 2px solid; padding: 2% 5%; 
+        border-radius: 40px; background-color: #0f0b0a; width: auto; display: block; text-align: center; width: 200px; margin: auto;}
+    .blackLink:hover {background-color:#f8f8ff; color: #0f0b0a; border: #0f0b0a 2px solid;}
+
+    .workGalleryWB { margin: auto; width: 80%; height: auto}
+
+    .workGalleryWB img {height: auto; width: 100%}
+
+    footer {width: 100%; padding: 1%; height: auto; box-sizing: border-box; margin-top: 20%; text-align: center; color: #0f0b0a;}
+footer a {text-decoration: none; display: inline-block; color: #0f0b0a} 
+footer p {display: inline-block}
+
+@media only screen and (min-width: 600px) {
+
+
 
 .pageWidths {width: 101%; margin-left: -10px; margin-top: -10px}
 
@@ -37,17 +82,14 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
         border-radius: 40px; background-color: #0f0b0a; width: auto; display: block; text-align: center; width: 200px; margin: auto;}
     .blackLink:hover {background-color:#f8f8ff; color: #0f0b0a; border: #0f0b0a 2px solid;}
 
-    nav {background: linear-gradient(to right, #ff7518 0%, #FEDD09); width: 19%; float: left; position: fixed; font-size: 100%; text-align: right; height: 100%}
 
-    nav > a { display: block; margin: 4% 6% 0% 0%}
-    
-    nav a {text-decoration: none; color: black}
+    nav {width: 23%; float: left; position: fixed; margin: 150px 0% 0% 2%; font-size: 90%; text-align: right}
+
+    nav > a { display: block; margin: 5% 0%; text-decoration: none; color: #010203; padding: none; border-radius: none; background: none;}
     
     nav a:hover {font-size: 110%; transition: ease-in-out}
     
-    nav :nth-child(1) {margin-top: 165px}
-    nav :nth-child(4) {margin-top: 60px}
-    nav :nth-child(10) {margin-top: 60px}
+
 
 .myInfo {height: auto; width: 100%; float: left; box-sizing: border-box; line-height: 80%; padding: 6%;}
 .myInfo h1 {font-size: 250%; margin-bottom: 6%; line-height: 100%; font-family: 'Cutive Mono', monospace;}
@@ -88,7 +130,7 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
 #introImgs img {display: inline; height: 185px; width: 23%;}
 .hr1 {width:40%; margin-top: 20px;}
 
-.dhenimg2 {height: auto; width: 90%; display: block; margin: auto; margin-top: 40px;}
+.dhenimg2 {height: auto; width: 100%; display: block; margin: auto; margin-top: 40px;}
 
 .adhIntroImgs {height: auto; width: 100%; margin: auto; margin-top: 40px;}
 .adhIntroImgs  img {display: inline; height: 300px; width: auto;}
@@ -137,7 +179,7 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
 
 
 
-.workGalleryWB img {height: auto; width: 360px}
+.workGalleryWB img {height: auto; width: 49%; display: inline-block;}
 
 .dhenimggallery {width: 100%; box-sizing: border-box;}
 .dhenimggallery img {width: 100%;}
@@ -151,4 +193,4 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
 footer {width: 100%; padding: 1%; height: auto; box-sizing: border-box; margin-top: 20%; text-align: center; color: #0f0b0a;}
 footer a {text-decoration: none; display: inline-block; color: #0f0b0a} 
 footer p {display: inline-block}
-
+}
