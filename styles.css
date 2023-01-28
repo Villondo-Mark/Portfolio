@@ -46,7 +46,7 @@ footer p {display: inline-block}
 
 /*@media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}*/
 
-@media only screen and (min-width: 400px) {
+@media screen and (min-width: 900px) {
 
 
 
