@@ -54,7 +54,7 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
 .introSection div:nth-child(4) {color:#a34cb3}
 .introSection div:nth-child(1) {color:#fe0948;}
 
-/*@media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}*/
+@media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
 
 
