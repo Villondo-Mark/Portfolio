@@ -58,7 +58,7 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
 
 
 
-  @media only screen and  (min-width: 900px) {
+  @media only screen and  (min-width: 400px) {
 
 nav {width: 23%; float: left; position: fixed; margin: 150px 0% 0% 2%; font-size: 90%; text-align: right}
 
