@@ -7,7 +7,7 @@ html {scroll-behavior: smooth}
 
 nav {width: 100%; display: block; text-align: center;}
 
-nav > a { display: block; background-color: #010203; width: 50%; margin: 2% auto; padding: 3px;border-radius: 15px; color: white; text-decoration: none}
+nav > a { display: block; background-color: #010203; width: 80%; margin: 2% auto; padding: 3px;border-radius: 15px; color: white; text-decoration: none}
 
 nav a:hover {font-size: 110%; transition: ease-in-out}
 
@@ -16,7 +16,7 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
 .caseStudyTitle .subheader {font-size: 120%; margin-top: -30px;}
 .caseStudyProblem p, .caseStudySolution p {text-align: justify;}
 
-.content {height: auto; width: 100%;  text-align: justify;display: block;box-sizing: border-box; 
+.content {height: auto; width: 100%;  text-align: justify; display: block;box-sizing: border-box; 
     min-width: 400px; margin-right: 3%; box-sizing: border-box; margin: auto;}
 
     .pageWidths {width: 100%; margin: auto;}
@@ -43,6 +43,30 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
     footer {width: 100%; padding: 1%; height: auto; box-sizing: border-box; margin-top: 20%; text-align: center; color: #0f0b0a;}
 footer a {text-decoration: none; display: inline-block; color: #0f0b0a} 
 footer p {display: inline-block}
+
+.adhIntroImgs {height: auto; width: 100%; margin: auto; margin-top: 40px;}
+.adhIntroImgs  img {display: inline; width: 100%;}
+.adhimggallery img {width: 32%; height: auto;}
+.adhimggallery {margin: auto; width: 80%;}
+.adhimggallery #wBackground {background: #0f0b0a;}
+
+#mishalfacecontainer {width: 80%; margin: auto;}
+#mishalface {width: 100%;}
+
+.dhenimg2 {height: auto; width: 100%; display: block; margin: auto; margin-top: 40px;}
+
+.dhenlogo {margin: auto; width: 80%;}
+.dhenlogo img {margin: auto; width: 100%;  display: inline-block;}
+.dhenimggallery {width: 100%; box-sizing: border-box; display: inline-block}
+.dhenimggallery img {width: 100%; display: inline-block;}
+
+.projectsGallery {display: block; width: 100%; height: auto;}
+.projectsGallery img {width: 100%; display: block;}
+
+.IPgallerypics {width: 100%; display: block; box-sizing: border-box;}
+.IPgallerypics img {width: 100%; display: block;}
+
+#stickervid { width: 100%; height: auto ; margin-top: 20px;}
 
 @media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
@@ -136,7 +160,8 @@ border-radius: 40px; background-color: rgba(15, 11, 10, 0.5) ; text-decoration: 
 #mishalface {width: 100%;}
 .projectsGallery {display: inline; width: 100%; height: auto;}
 .projectsGallery img {width: auto; height: 240px;}
-.IPgallerypics {width: auto; height: auto; display: flex;flex-direction:row-reverse;}
+.IPgallerypics {width: 100%; display: block; box-sizing: border-box;}
+.IPgallerypics img {width: 100%; display: block;}
 
 
 .caseStudyDetails {margin-top: 40px}
