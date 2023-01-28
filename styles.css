@@ -17,7 +17,7 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
 .caseStudyProblem p, .caseStudySolution p {text-align: justify;}
 
 .content {height: auto; width: 100%;  text-align: justify; display: block;box-sizing: border-box; 
-    min-width: 300px; box-sizing: border-box; margin: auto;}
+    min-width: 200px; box-sizing: border-box; margin: auto;}
 
     .pageWidths {width: 100%; margin: auto;}
 
