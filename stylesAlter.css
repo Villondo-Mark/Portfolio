@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
-@media only screen and (max-width: 56.25em) {nav::before {content:"Mark Villondo - Online Portfolio";}
-
 body {background: linear-gradient(to right, #ff7518, 15%, #FEDD09); overflow-x: hidden; font-family: nunito; color: #010203; padding: 3%; width: 90%; margin: auto;}
 
 .introSection::before, .introSection::after { content:' \A'; display: block; white-space: pre;}
@@ -54,7 +52,9 @@ nav a:hover {font-size: 110%; transition: ease-in-out}
 .introSection div:nth-child(2) {color:#0651b2}
 .introSection div:nth-child(3) {color:#0974fe}
 .introSection div:nth-child(4) {color:#a34cb3}
-.introSection div:nth-child(1) {color:#fe0948;}}
+.introSection div:nth-child(1) {color:#fe0948;}
+
+@media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
 
 
