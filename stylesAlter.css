@@ -19,7 +19,7 @@ body {background: linear-gradient(to right, #ff7518, 15%, #FEDD09); overflow-x: 
 
 .interactables img {box-sizing: border-box; border: white solid 10px; width: 70%; margin-left: auto; margin-right: auto; display: block;}
 
-.myButtons {color: white; border-radius: 50px; padding: 9px 6px; text-align: center; margin-bottom: 7px; background-color: #010203; font-size: 110%; text-decoration: none;}
+.myButtons {color: white; border-radius: 50px; padding: 9px 6px; text-align: center; margin-bottom: 7px; background-color: #010203; font-size: 110%; text-decoration: none}
 
 .homeButton {color: white; background-color: #010203; border-radius: 50px; padding: 3px; text-decoration: none; font-size: 120%; display: block; text-align: center; width: 50%; margin: auto;}
 
@@ -53,11 +53,6 @@ footer a {text-decoration: none; color: #0f0b0a}
 .introSection div:nth-child(3) {color:#0974fe}
 .introSection div:nth-child(4) {color:#a34cb3}
 .introSection div:nth-child(1) {color:#fe0948;}
-
-* {
-  margin: 0;
-  padding: 0;
-  }
 
 @media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
