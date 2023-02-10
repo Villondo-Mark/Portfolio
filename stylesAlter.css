@@ -54,6 +54,11 @@ footer a {text-decoration: none; color: #0f0b0a}
 .introSection div:nth-child(4) {color:#a34cb3}
 .introSection div:nth-child(1) {color:#fe0948;}
 
+* {
+  margin: 0;
+  padding: 0;
+  }
+
 @media only screen and (max-width: 899px) {nav::before {content:"Mark Villondo - Online Portfolio";}}
 
 
